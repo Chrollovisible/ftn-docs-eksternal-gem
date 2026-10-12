@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Pengenalan": {
+    "message": "Pengenalan",
+    "description": "The label for category 'Pengenalan' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.cara-kerja": {
+    "message": "cara-kerja",
+    "description": "The label for category 'cara-kerja' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.layanan": {
+    "message": "layanan",
+    "description": "The label for category 'layanan' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.panduan-pengguna": {
+    "message": "panduan-pengguna",
+    "description": "The label for category 'panduan-pengguna' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.teknologi": {
+    "message": "teknologi",
+    "description": "The label for category 'teknologi' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.token": {
+    "message": "token",
+    "description": "The label for category 'token' in sidebar 'tutorialSidebar'"
+  }
+}
