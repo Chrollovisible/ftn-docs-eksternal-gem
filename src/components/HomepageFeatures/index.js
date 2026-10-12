@@ -1,24 +1,37 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Translate from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Verifikasi Keaslian',
+    title: (
+      <Translate id="homepage.feature1.title">Verifikasi Keaslian</Translate>
+    ),
     description: (
-      <>Pindai QR di kemasan untuk memastikan produk asli dan terdaftar.</>
+      <Translate id="homepage.feature1.description">
+        Pindai QR di kemasan untuk memastikan produk asli dan terdaftar.
+      </Translate>
     ),
   },
   {
-    title: 'Kepemilikan Digital',
+    title: (
+      <Translate id="homepage.feature2.title">Kepemilikan Digital</Translate>
+    ),
     description: (
-      <>Catat kepemilikan produk dan lihat sertifikat keaslian digitalnya.</>
+      <Translate id="homepage.feature2.description">
+        Catat kepemilikan produk dan lihat sertifikat keaslian digitalnya.
+      </Translate>
     ),
   },
   {
-    title: 'Loyalitas Berbasis Token',
+    title: (
+      <Translate id="homepage.feature3.title">Loyalitas Berbasis Token</Translate>
+    ),
     description: (
-      <>Program loyalitas pelanggan yang didukung teknologi blockchain.</>
+      <Translate id="homepage.feature3.description">
+        Program loyalitas pelanggan yang didukung teknologi blockchain.
+      </Translate>
     ),
   },
 ];

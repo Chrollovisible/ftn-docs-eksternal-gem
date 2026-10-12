@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Pengenalan": {
-    "message": "Pengenalan",
+    "message": "Introduction",
     "description": "The label for category 'Pengenalan' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.cara-kerja": {
@@ -26,5 +26,25 @@
   "sidebar.tutorialSidebar.category.token": {
     "message": "token",
     "description": "The label for category 'token' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Cara Kerja": {
+    "message": "How It Works",
+    "description": "The label for category 'Cara Kerja' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panduan Pengguna": {
+    "message": "User Guide",
+    "description": "The label for category 'Panduan Pengguna' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Layanan untuk Brand": {
+    "message": "Services for Brands",
+    "description": "The label for category 'Layanan untuk Brand' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Teknologi": {
+    "message": "Technology",
+    "description": "The label for category 'Teknologi' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Token": {
+    "message": "Token",
+    "description": "The label for category 'Token' in sidebar 'tutorialSidebar'"
   }
 }

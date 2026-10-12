@@ -1,3 +1,4 @@
+import Translate, {translate} from '@docusaurus/Translate';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -20,7 +21,9 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/pengenalan/apa-itu-flagshiiip">
-            Apa itu Flagshiiip? (Mulai Belajar)
+            <Translate id="homepage.button">
+              Apa itu Flagshiiip? (Mulai Belajar)
+            </Translate>
           </Link>
         </div>
       </div>
@@ -31,8 +34,11 @@ function HomepageHeader() {
 export default function Home() {
   return (
     <Layout
-      title="Beranda"
-      description="Dokumentasi resmi platform Flagshiiip">
+      title={translate({id: 'homepage.layoutTitle', message: 'Beranda'})}
+      description={translate({
+        id: 'homepage.layoutDescription',
+        message: 'Dokumentasi resmi platform Flagshiiip',
+      })}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

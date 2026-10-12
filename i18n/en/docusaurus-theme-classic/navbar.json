@@ -18,5 +18,21 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Dokumentasi": {
+    "message": "Documentation",
+    "description": "Navbar item with label Dokumentasi"
+  },
+  "item.label.Panduan Pengguna": {
+    "message": "User Guide",
+    "description": "Navbar item with label Panduan Pengguna"
+  },
+  "item.label.FAQ": {
+    "message": "FAQ",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.flagshiiip.com": {
+    "message": "flagshiiip.com",
+    "description": "Navbar item with label flagshiiip.com"
   }
 }

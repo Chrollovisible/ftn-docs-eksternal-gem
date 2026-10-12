@@ -325,5 +325,32 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "homepage.button": {
+    "message": "What is Flagshiiip? (Start Here)"
+  },
+  "homepage.layoutTitle": {
+    "message": "Home"
+  },
+  "homepage.layoutDescription": {
+    "message": "Official documentation for the Flagshiiip platform"
+  },
+  "homepage.feature1.title": {
+    "message": "Authenticity Verification"
+  },
+  "homepage.feature1.description": {
+    "message": "Scan the QR on the packaging to confirm the product is authentic and registered."
+  },
+  "homepage.feature2.title": {
+    "message": "Digital Ownership"
+  },
+  "homepage.feature2.description": {
+    "message": "Record product ownership and view its digital certificate of authenticity."
+  },
+  "homepage.feature3.title": {
+    "message": "Token-Based Loyalty"
+  },
+  "homepage.feature3.description": {
+    "message": "A customer loyalty program powered by blockchain technology."
   }
 }
