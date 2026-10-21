@@ -1,25 +1,31 @@
 ---
 sidebar_position: 2
 title: "Verifikasi Keaslian"
-description: "Bagaimana pembeli memastikan produk asli lewat scan QR."
+description: "Cara membaca hasil scan: terverifikasi atau tidak terverifikasi."
 ---
 
 # Verifikasi Keaslian
 
-Verifikasi dilakukan dengan memindai QR code pada stiker Flagshiiip di kemasan produk lewat aplikasi.
+Setelah Anda memindai QR, aplikasi menampilkan salah satu dari dua hasil berikut.
 
-## Hasil verifikasi
+![Hasil scan: terverifikasi atau tidak terverifikasi](/img/diagram/hasil-scan-id.svg)
 
-Produk yang terverifikasi menampilkan **sertifikat keaslian digital** sebagai bukti bahwa produk tersebut asli dan terdaftar secara resmi. Status produk ditampilkan sebagai asli atau terverifikasi.
+## Jika terverifikasi
 
-## Prinsip dasarnya
+Aplikasi menampilkan **sertifikat keaslian digital**. Artinya produk Anda asli dan terdaftar secara resmi.
 
-- Setiap stiker memiliki QR code yang unik.
-- Satu QR hanya dapat diklaim satu kali.
-- Hasil verifikasi didukung teknologi blockchain.
+## Jika tidak terverifikasi
 
-Penjelasan lebih lanjut tentang perlindungan terhadap duplikasi ada di halaman [Keamanan dan Anti-Duplikasi](../teknologi/keamanan-dan-anti-duplikasi.md).
+Hasil ini muncul, misalnya, jika kode tidak dikenali atau sudah pernah diklaim. Jangan panik, tapi sebaiknya:
 
-:::note[Dalam penyusunan]
-Penjelasan teknis tentang data yang dicatat di blockchain saat verifikasi akan ditambahkan setelah dikonfirmasi tim teknis.
+1. Pastikan stiker tidak rusak, lalu scan sekali lagi.
+2. Hubungi penjual tempat Anda membeli.
+3. Hubungi brand produk tersebut.
+
+## Mengapa satu kode hanya bisa diklaim sekali?
+
+Setiap stiker memiliki kode unik yang hanya bisa diklaim satu kali. Ini membuat kode sulit digandakan dan membantu melindungi Anda dari produk tiruan.
+
+:::caution[Perlu verifikasi tim]
+Tulisan dan tampilan pesan di aplikasi untuk setiap hasil perlu dicocokkan dengan aplikasi sebenarnya.
 :::

@@ -1,28 +1,39 @@
 ---
 sidebar_position: 1
-title: "Blockchain di Flagshiiip"
-description: "Penjelasan sederhana tentang blockchain dan perannya di Flagshiiip."
+title: "Blockchain, Dijelaskan Sederhana"
+description: "Penjelasan blockchain dengan bahasa sehari-hari dan hubungannya dengan Flagshiiip."
 ---
 
-# Blockchain di Flagshiiip
+# Blockchain, Dijelaskan Sederhana
 
-## Apa itu blockchain?
+Anda **tidak perlu memahami halaman ini** untuk memakai Flagshiiip. Halaman ini untuk Anda yang penasaran dengan teknologi di balik layar.
 
-Blockchain adalah buku catatan digital yang disimpan di banyak komputer sekaligus. Data yang sudah tercatat sulit diubah, sehingga catatan di dalamnya dapat dipercaya tanpa bergantung pada satu pihak saja.
+## Bayangkan buku catatan bersama
 
-## Peran blockchain di Flagshiiip
+Bayangkan sebuah buku catatan yang salinannya dipegang banyak orang sekaligus. Setiap ada catatan baru, semua salinan ikut diperbarui. Kalau seseorang diam-diam mengubah catatan di salinannya, salinan milik orang lain akan menunjukkan perbedaannya, sehingga perubahan itu ketahuan.
 
-Flagshiiip memakai teknologi blockchain untuk:
+Itulah gagasan dasar **blockchain**: buku catatan digital yang disimpan di banyak tempat sekaligus, sehingga sulit diubah secara diam-diam.
 
-- mendukung **autentikasi keaslian produk**,
-- mendukung **sertifikat keaslian digital**,
-- mencatat **kepemilikan** produk,
-- menjalankan **program loyalitas berbasis token**.
+![Buku catatan bersama yang disalin di banyak tempat](/img/diagram/buku-catatan-id.svg)
 
-Bagi pengguna, semua ini terlihat sederhana: pindai QR, lihat hasilnya, dan klaim token. Proses di blockchain berjalan di belakang layar.
+## Apa hubungannya dengan Flagshiiip?
 
-Lihat juga [Keamanan dan Anti-Duplikasi](./keamanan-dan-anti-duplikasi.md) dan [Token FTN](../token/token-ftn.md).
+Flagshiiip memakai teknologi ini untuk mendukung hal-hal berikut:
 
-:::note[Dalam penyusunan]
-Rincian teknis berikut akan ditambahkan setelah dikonfirmasi tim teknis: jaringan blockchain yang dipakai, data apa yang dicatat di blockchain, dan alamat smart contract yang boleh dipublikasikan.
+- **Keaslian produk**: hasil scan Anda didukung catatan yang sulit diubah.
+- **Sertifikat keaslian digital**: bukti keaslian yang bisa Anda lihat di aplikasi.
+- **Catatan kepemilikan produk**.
+- **Hadiah loyalitas** berupa token.
+
+## Apa yang Anda lihat sebagai pengguna?
+
+Hampir tidak ada. Anda cukup scan stiker dan melihat hasilnya. Semua proses pencatatan berjalan otomatis di belakang layar.
+
+## Mau tahu lebih jauh?
+
+- [Mengapa Sulit Dipalsukan?](./keamanan-dan-anti-duplikasi.md)
+- [Apa itu Token?](../token/token-ftn.md)
+
+:::caution[Perlu verifikasi tim]
+Daftar hal yang dicatat di blockchain di atas mengikuti penjelasan di situs Flagshiiip. Pastikan dengan tim bahwa daftar ini akurat dan boleh diceritakan ke publik.
 :::

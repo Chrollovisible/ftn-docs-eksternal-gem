@@ -1,28 +1,30 @@
 ---
 sidebar_position: 3
 title: "Hubungkan Wallet"
-description: "Menghubungkan atau membuat wallet di aplikasi Flagshiiip."
+description: "Menghubungkan atau membuat wallet untuk menerima hadiah."
 ---
 
 # Hubungkan Wallet
 
-Wallet adalah dompet digital untuk menyimpan token. Di aplikasi Flagshiiip, Anda dapat **menghubungkan wallet yang sudah ada** atau **membuat alamat wallet baru**.
+**Wallet** adalah dompet digital untuk menyimpan hadiah dari program loyalitas. Anda hanya memerlukannya jika ingin mengklaim hadiah. Untuk sekadar mengecek keaslian produk, ikuti saja [Scan QR](./scan-qr.md).
+
+Di aplikasi, Anda bisa **menghubungkan wallet yang sudah ada** atau **membuat yang baru**.
 
 ## Langkah
 
-1. Buka bagian pengaturan wallet di aplikasi.
+1. Buka bagian wallet di aplikasi.
 2. Pilih untuk menghubungkan wallet yang sudah ada, atau membuat yang baru.
-3. Ikuti petunjuk di layar hingga alamat wallet tampil di aplikasi.
+3. Ikuti petunjuk di layar sampai wallet Anda tampil di aplikasi.
 
-## Keamanan wallet
+## Jaga keamanan wallet Anda
 
 :::warning
-Jangan pernah membagikan **seed phrase** atau **private key** wallet Anda kepada siapa pun, termasuk kepada pihak yang mengaku sebagai tim Flagshiiip. Siapa pun yang memegang informasi itu dapat mengambil isi wallet.
+Jangan pernah memberi tahu **seed phrase** (rangkaian kata rahasia) wallet Anda kepada siapa pun, termasuk orang yang mengaku dari tim Flagshiiip. Siapa pun yang tahu rangkaian kata itu bisa mengambil isi wallet Anda.
 :::
 
-- Simpan seed phrase secara offline di tempat aman.
+- Catat seed phrase di kertas dan simpan di tempat aman.
 - Jangan menyimpannya dalam tangkapan layar atau pesan.
 
 :::caution[Perlu verifikasi tim]
-Jenis wallet yang didukung, jaringan blockchain yang dipakai, dan langkah persisnya di aplikasi perlu dikonfirmasi.
+Jenis wallet yang didukung dan langkah persisnya di aplikasi perlu dikonfirmasi. Belum jelas juga apakah verifikasi keaslian saja memerlukan wallet.
 :::

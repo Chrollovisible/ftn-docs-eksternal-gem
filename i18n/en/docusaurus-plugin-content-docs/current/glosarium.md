@@ -1,49 +1,43 @@
 ---
 sidebar_position: 8
 title: "Glossary"
-description: "Terms used in the Flagshiiip documentation."
+description: "Explanations of terms used in the Flagshiiip guide."
 ---
 
 # Glossary
 
-**Anti-duplication**
-Protection that prevents a code from being used many times. At Flagshiiip, each QR code can only be claimed once.
-
 **Blockchain**
-A digital ledger stored on many computers so that its records are hard to change.
+A digital recording technology that helps keep data secure and hard to change. You do not need to understand it to use Flagshiiip.
 
-**Dashboard**
-A page where brands monitor scan activity, locations, and product activity.
+**Brand**
+The maker or owner of a product that puts Flagshiiip stickers on it.
 
 **Digital certificate of authenticity**
-Digital proof that a product is authentic and officially registered.
+Proof in the app that your product is authentic and officially registered.
 
-**FTN**
-The name of the token in the Flagshiiip Tokenium ecosystem. The name is also used for the app (FTN Apps).
+**Flagshiiip sticker**
+The sticker on product packaging that carries a unique QR code.
 
-**Loyalty program**
-A rewards program for retaining customers.
-
-**NFT**
-A unique token that represents ownership of one specific asset.
-
-**On-chain**
-Data recorded directly on the blockchain.
+**FTN Apps**
+The name of the Flagshiiip app on Google Play.
 
 **QR code**
-A two-dimensional code read with a phone camera.
+A black-and-white patterned square that is read with a phone camera.
+
+**Loyalty program**
+A rewards program for loyal customers. At Flagshiiip, the reward is a token.
 
 **Seed phrase**
 A secret set of words used to recover a wallet. Never share it with anyone.
 
-**Smart contract**
-A program on the blockchain that runs automatically according to rules that have been written.
-
 **Token**
-A digital asset recorded on a blockchain.
+A kind of digital point that can be received as a reward from a brand.
 
 **Tokenomics**
-The design of a token's supply, distribution, and function.
+The rules for a token's amount, distribution, and function.
+
+**Verification**
+The process of checking whether a product is authentic.
 
 **Wallet**
-A digital purse for storing and managing tokens.
+A digital purse for keeping tokens.

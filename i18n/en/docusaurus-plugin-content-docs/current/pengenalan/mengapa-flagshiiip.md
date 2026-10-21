@@ -1,34 +1,28 @@
 ---
 sidebar_position: 2
 title: "Why Flagshiiip?"
-description: "The problems Flagshiiip addresses and the strengths of its approach."
+description: "The benefits of Flagshiiip for buyers."
 ---
 
 # Why Flagshiiip?
 
-## The problems it addresses
+## The problem
 
-- **Counterfeit products** harm brands and make it hard for buyers to be sure the goods they buy are authentic.
-- **Conventional loyalty programs** often lose value quickly, are locked into a single brand, and give users limited flexibility.
+Counterfeit products are sold in many places and are often hard to tell apart from the real thing. Buyers can lose out, and brands are harmed too.
 
-## The Flagshiiip approach
+## How Flagshiiip helps you
 
-| Challenge | Flagshiiip approach |
+| What you need | What Flagshiiip gives you |
 |---|---|
-| Hard to confirm product authenticity | Instant verification with a single QR scan, with a certificate showing the product as authentic or verified |
-| Codes are easy to duplicate | A unique QR on every sticker, and each QR can only be claimed once |
-| Brands lack visibility into product activity | A monitoring dashboard for scans, locations, and activity |
-| Loyalty rewards lack value | A token-based loyalty program in a blockchain ecosystem |
-| Product ownership is not recorded | Digital ownership records in the app |
+| Confidence that what you bought is authentic | An authenticity check with a single QR scan |
+| Proof of authenticity | A digital certificate of authenticity in the app |
+| A record of products you own | Products can be kept in the app |
+| To feel valued as a customer | Loyalty rewards from the brand, if available |
 
-## Key strengths
+## Easy to use
 
-- **Anti-counterfeiting technology**: product authenticity is backed by blockchain.
-- **Digital ownership**: every product can be recorded as a verifiable asset.
-- **Transparent ecosystem**: tracking of a product's journey from brand to consumer.
-- **Token loyalty system**: customers can receive rewards in the form of brand-backed tokens.
-- **Instant verification**: results appear right after the QR code is scanned.
+- No special equipment, just your phone and the app.
+- No need to understand the technology.
+- The result appears right after scanning.
 
-:::caution[Needs team verification]
-The scope of product journey tracking and the status of the feature that lets assets be traded need to be confirmed before publishing.
-:::
+Ready to try? Start with [Quick Start](../mulai-cepat.md).

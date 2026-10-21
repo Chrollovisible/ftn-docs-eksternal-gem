@@ -1,23 +1,21 @@
 ---
 sidebar_position: 4
-title: "Klaim Token"
-description: "Cara mendapatkan token loyalitas setelah verifikasi produk."
+title: "Klaim Hadiah"
+description: "Cara mengklaim hadiah loyalitas setelah memverifikasi produk."
 ---
 
-# Klaim Token
+# Klaim Hadiah
 
-Setelah produk terverifikasi dan wallet terhubung, pengguna dapat memperoleh autentikasi dari blockchain dan mengklaim token sebagai imbalan program loyalitas.
+Pada produk tertentu, brand memberi hadiah kepada pembeli yang sudah memverifikasi produknya. Hadiah ini berupa **token**, yaitu semacam poin digital yang disimpan di wallet Anda.
 
-## Gambaran langkah
+## Langkah
 
-1. Pindai QR produk dan pastikan hasilnya terverifikasi.
-2. Hubungkan wallet Anda di aplikasi.
-3. Ikuti petunjuk di aplikasi untuk mengklaim token.
+1. Scan QR produk dan pastikan hasilnya terverifikasi.
+2. [Hubungkan wallet](./hubungkan-wallet.md) Anda di aplikasi.
+3. Jika produk tersebut memberi hadiah, aplikasi akan menunjukkan cara mengklaimnya. Ikuti petunjuknya.
 
-Satu QR hanya dapat diklaim satu kali.
+Satu kode QR hanya bisa diklaim satu kali. Ingin tahu lebih banyak tentang token? Baca [Apa itu Token?](../token/token-ftn.md).
 
 :::note[Dalam penyusunan]
-Rincian klaim token belum dikonfirmasi: jenis token yang diterima, jumlahnya, syarat, dan apakah semua produk menghasilkan token atau hanya produk dari brand dengan program loyalitas tertentu. Halaman ini akan dilengkapi setelah tim memberi konfirmasi.
+Rincian hadiah belum dikonfirmasi: jenis dan jumlah hadiah, syarat, serta apakah semua produk memberi hadiah. Halaman ini akan dilengkapi setelah tim memberi konfirmasi.
 :::
-
-Lihat juga [Program Loyalitas](../token/program-loyalitas.md).

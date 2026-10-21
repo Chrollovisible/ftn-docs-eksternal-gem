@@ -1,22 +1,23 @@
 ---
 sidebar_position: 3
-title: "Kepemilikan Digital"
-description: "Pencatatan kepemilikan produk pada aplikasi Flagshiiip."
+title: "Catatan Kepemilikan Produk"
+description: "Menyimpan catatan produk yang sudah Anda verifikasi di aplikasi."
 ---
 
-# Kepemilikan Digital
+# Catatan Kepemilikan Produk
 
-Selain memastikan keaslian, aplikasi Flagshiiip memungkinkan pengguna **mencatat kepemilikan produk** untuk referensi di kemudian hari.
+Selain mengecek keaslian, aplikasi Flagshiiip dapat mencatat produk yang sudah Anda verifikasi, sehingga Anda bisa melihatnya lagi kapan saja.
 
-## Yang dapat dilakukan pengguna
+## Yang bisa Anda lakukan
 
-- Melihat sertifikat keaslian digital produk yang sudah diverifikasi.
-- Mencatat kepemilikan produk secara aman di aplikasi.
+- Melihat kembali sertifikat keaslian produk yang pernah Anda scan.
+- Menyimpan catatan bahwa produk tersebut milik Anda.
 
-## Konsep aset digital
+## Kapan berguna?
 
-Flagshiiip memandang setiap produk sebagai aset yang dapat diverifikasi. Konsep ini menjadi dasar fitur kepemilikan digital.
+- Saat ingin membuktikan bahwa produk Anda asli.
+- Saat Anda ingin mengecek kembali produk yang pernah dibeli.
 
 :::caution[Perlu verifikasi tim]
-Situs menyebut aset produk dapat diperdagangkan. Status fitur ini (sudah aktif atau masih rencana), syarat, dan batasannya perlu dikonfirmasi sebelum dijelaskan di sini. Deskripsi aplikasi di toko aplikasi juga menyatakan aplikasi tidak menyediakan layanan trading atau investasi, sehingga kata-kata yang dipakai harus konsisten.
+Fitur apa saja yang tersedia pada catatan kepemilikan dan tampilannya di aplikasi perlu dicocokkan dengan versi terbaru.
 :::

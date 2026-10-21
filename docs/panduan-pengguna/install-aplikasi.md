@@ -1,28 +1,28 @@
 ---
 sidebar_position: 1
 title: "Instal Aplikasi"
-description: "Cara memasang aplikasi Flagshiiip (FTN Apps) dan membuat akun."
+description: "Cara memasang aplikasi Flagshiiip dan membuat akun."
 ---
 
 # Instal Aplikasi
 
-Aplikasi Flagshiiip tersedia untuk Android dan iOS. Di Google Play, aplikasinya bernama **FTN Apps**.
+Aplikasi Flagshiiip tersedia untuk Android dan iOS. Di Google Play, namanya **FTN Apps**.
 
-## Langkah pemasangan
+## Memasang aplikasi
 
-1. Buka Google Play (Android) atau App Store (iOS).
-2. Cari **FTN Apps** atau **Flagshiiip**.
-3. Ketuk **Instal** dan tunggu hingga selesai.
-4. Buka aplikasi.
+1. Buka Google Play (Android) atau App Store (iPhone).
+2. Ketik **FTN Apps** atau **Flagshiiip** di kolom pencarian.
+3. Ketuk **Instal** dan tunggu sampai selesai.
+4. Buka aplikasinya.
 
 ## Membuat akun
 
-1. Pada layar awal, pilih **Daftar Sekarang**.
-2. Isi email, kata sandi, dan konfirmasi kata sandi.
-3. Centang persetujuan pada kebijakan yang ditampilkan, lalu pilih **Daftar**.
-4. Jika sudah punya akun, pilih **Masuk**.
+1. Di layar awal, ketuk **Daftar Sekarang**.
+2. Isi email dan kata sandi, lalu ulangi kata sandi di kolom konfirmasi.
+3. Centang persetujuan pada kebijakan yang tampil, lalu ketuk **Daftar**.
+4. Jika sudah punya akun, ketuk **Masuk**.
 
-Setelah masuk, lanjutkan ke [Scan QR](./scan-qr.md).
+Selanjutnya, lihat [Scan QR](./scan-qr.md).
 
 :::caution[Perlu verifikasi tim]
 Nama aplikasi di App Store, tautan unduhan resmi, dan tampilan layar awal perlu dicocokkan dengan versi terbaru aplikasi.

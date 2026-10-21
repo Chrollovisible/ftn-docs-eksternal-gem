@@ -1,34 +1,31 @@
 ---
 sidebar_position: 1
 title: "Apa itu Flagshiiip?"
-description: "Pengenalan platform Flagshiiip untuk perlindungan keaslian produk dan program loyalitas berbasis blockchain."
+description: "Pengenalan Flagshiiip, cara mudah memastikan produk yang Anda beli asli."
 ---
 
 # Apa itu Flagshiiip?
 
-Flagshiiip adalah platform yang membantu brand melindungi produknya dari pemalsuan sekaligus membangun loyalitas pelanggan. Setiap produk diberi stiker pintar dengan QR code unik. Pembeli memindai QR tersebut lewat aplikasi untuk memastikan produk asli dan terdaftar, dan hasil verifikasinya didukung teknologi blockchain.
+Pernah ragu apakah barang yang Anda beli asli atau tiruan? Flagshiiip membantu menjawabnya dalam hitungan detik.
 
-Semboyan di aplikasinya: **Keaslian Terjamin. Loyalitas Jadi Aset.**
+Setiap produk yang dilindungi Flagshiiip memiliki **stiker khusus dengan kode QR unik** di kemasannya. Anda cukup memindai kode itu dengan aplikasi, dan aplikasi akan menunjukkan apakah produk tersebut asli.
 
-## Dua manfaat utama
+![Gambaran umum Flagshiiip dalam tiga langkah](/img/diagram/gambaran-umum-id.svg)
 
-- **Bagi brand**: melindungi produk dari pemalsuan, memantau aktivitas scan lewat dashboard, dan membangun program loyalitas pelanggan.
-- **Bagi pembeli**: kepastian bahwa produk yang dibeli asli, serta catatan kepemilikan produk.
+## Apa yang Anda dapatkan
 
-## Komponen Flagshiiip
+- **Cek keaslian cepat**: cukup scan, hasilnya langsung tampil.
+- **Sertifikat keaslian digital**: bukti bahwa produk Anda asli.
+- **Catatan produk milik Anda**: produk yang sudah dipindai dapat Anda simpan di aplikasi.
+- **Hadiah loyalitas**: pada produk tertentu, Anda bisa mendapat hadiah dari brand setelah memverifikasi produk, jika tersedia.
 
-1. **Stiker Flagshiiip**: stiker dengan QR code unik yang dipasang pada kemasan produk.
-2. **Aplikasi FTN Apps**: aplikasi untuk memindai QR dan melihat sertifikat keaslian produk.
-3. **Dashboard brand**: pemantauan scan, lokasi, dan aktivitas.
-4. **Token loyalitas**: aset digital yang menjadi dasar program loyalitas berbasis blockchain.
+## Siapa yang memakai Flagshiiip?
 
-:::caution[Perlu verifikasi tim]
-Rincian token yang diterima pembeli (jenis token, syarat, dan jumlahnya) belum dikonfirmasi. Lihat halaman [Klaim Token](../panduan-pengguna/klaim-token.md) dan [Program Loyalitas](../token/program-loyalitas.md).
-:::
+- **Brand** memasang stiker Flagshiiip pada produknya untuk melindungi dari pemalsuan.
+- **Pembeli** seperti Anda memindai stiker itu untuk memastikan produknya asli.
+
+Anda tidak perlu memahami teknologi di baliknya untuk memakai Flagshiiip. Semua prosesnya berjalan otomatis.
 
 ## Mulai dari mana?
 
-- Ingin memahami alurnya: baca [Alur Produk](../cara-kerja/alur-produk.md).
-- Ingin mencoba sebagai pembeli: baca [Instal Aplikasi](../panduan-pengguna/install-aplikasi.md).
-- Brand yang ingin melindungi produk: baca [Paket Layanan](../layanan/paket-layanan.md).
-- Ada pertanyaan: lihat [FAQ](../faq.md).
+Baca [Mulai Cepat](../mulai-cepat.md), atau langsung ke [Instal Aplikasi](../panduan-pengguna/install-aplikasi.md).

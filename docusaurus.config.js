@@ -1,5 +1,5 @@
 // @ts-check
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,7 +17,7 @@ const config = {
 
   // Isi saat repo GitHub sudah ada
   organizationName: 'Chrollovisible',
-  projectName: 'ftn-docs-eksternal',
+  projectName: 'ftn-docs-eksternal-gem',
 
   onBrokenLinks: 'throw',
 
@@ -25,8 +25,8 @@ const config = {
     defaultLocale: 'id',
     locales: ['id', 'en'],
     localeConfigs: {
-      id: {label: 'Indonesia', htmlLang: 'id-ID'},
-      en: {label: 'English', htmlLang: 'en-US'},
+      id: { label: 'Indonesia', htmlLang: 'id-ID' },
+      en: { label: 'English', htmlLang: 'en-US' },
     },
   },
 
@@ -49,12 +49,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/favicon-32x32.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Flagshiiip Docs',
+        title: 'Flagshiiip',
         items: [
           {
             type: 'docSidebar',
@@ -79,6 +79,11 @@ const config = {
           {
             href: 'https://flagshiiip.com',
             label: 'flagshiiip.com',
+            position: 'right',
+          },
+          {
+            href: 'https://flagshiiip.io',
+            label: 'flagshiiip.io',
             position: 'right',
           },
         ],

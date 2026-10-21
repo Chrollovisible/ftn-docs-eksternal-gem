@@ -1,22 +1,23 @@
 ---
 sidebar_position: 3
-title: "Digital Ownership"
-description: "Recording product ownership in the Flagshiiip app."
+title: "Product Ownership Record"
+description: "Keeping a record of products you have verified in the app."
 ---
 
-# Digital Ownership
+# Product Ownership Record
 
-Beyond confirming authenticity, the Flagshiiip app lets users **record product ownership** for future reference.
+Besides checking authenticity, the Flagshiiip app can keep a record of the products you have verified, so you can look at them again anytime.
 
-## What users can do
+## What you can do
 
-- View the digital certificate of authenticity for a verified product.
-- Securely record product ownership in the app.
+- Look back at the certificate of authenticity for products you have scanned.
+- Keep a record that the product belongs to you.
 
-## The digital asset concept
+## When is it useful?
 
-Flagshiiip treats every product as a verifiable asset. This concept is the basis of the digital ownership feature.
+- When you want to prove that your product is authentic.
+- When you want to check again on a product you bought earlier.
 
 :::caution[Needs team verification]
-The website mentions that product assets can be traded. The status of this feature (already active or still planned), its conditions, and its limits need to be confirmed before being explained here. The app's description in the app store also states that the app does not provide trading or investment services, so the wording used must be consistent.
+Which features the ownership record offers and how it looks in the app need to be matched to the latest version.
 :::

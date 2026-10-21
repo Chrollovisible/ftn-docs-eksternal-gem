@@ -1,25 +1,33 @@
 ---
 sidebar_position: 2
-title: "Keamanan dan Anti-Duplikasi"
-description: "Bagaimana Flagshiiip melindungi produk dari pemalsuan dan duplikasi kode."
+title: "Mengapa Sulit Dipalsukan?"
+description: "Cara kerja kode unik Flagshiiip dan apa yang bisa Anda lakukan agar tetap aman."
 ---
 
-# Keamanan dan Anti-Duplikasi
+# Mengapa Sulit Dipalsukan?
 
-## Prinsip perlindungan
+## Seperti tiket konser
 
-- **QR unik**: setiap stiker memiliki QR code sendiri, tidak ada dua stiker dengan kode yang sama.
-- **Satu klaim per QR**: satu QR hanya dapat diklaim satu kali.
-- **Sertifikat digital**: produk yang terverifikasi menampilkan sertifikat keaslian digital.
-- **Dukungan blockchain**: hasil verifikasi didukung teknologi blockchain.
-- **Pemantauan brand**: dashboard menampilkan data scan, lokasi, dan aktivitas.
+Bayangkan tiket konser. Setiap tiket punya nomor sendiri, dan satu tiket hanya bisa dipakai masuk satu kali. Jika ada orang kedua membawa tiket dengan nomor yang sama, petugas langsung tahu ada yang tidak beres.
 
-## Tips keamanan untuk pengguna
+Stiker Flagshiiip bekerja dengan cara serupa.
 
-- Pindai QR hanya lewat aplikasi resmi.
-- Jangan membagikan seed phrase atau private key wallet kepada siapa pun.
-- Jika hasil verifikasi mencurigakan, hubungi penjual atau brand terkait.
+![Setiap stiker punya kode unik yang hanya bisa diklaim sekali](/img/diagram/kode-unik-id.svg)
 
-:::caution[Perlu verifikasi tim]
-Penjelasan lebih rinci tentang cara sistem menangani QR yang difoto atau digandakan, serta pesan yang muncul saat QR sudah pernah diklaim, perlu dikonfirmasi tim sebelum dipublikasikan. Pertanyaan ini besar kemungkinan diajukan brand dan calon pengguna.
+## Tiga hal yang melindungi Anda
+
+1. **Kode unik**: setiap stiker punya kode QR sendiri, tidak ada dua stiker yang sama.
+2. **Sekali klaim**: satu kode hanya bisa diklaim satu kali.
+3. **Catatan yang sulit diubah**: hasil verifikasi didukung teknologi pencatatan digital ([blockchain](./blockchain.md)).
+
+Selain itu, brand dapat memantau aktivitas scan produknya sehingga pola yang mencurigakan lebih mudah dikenali.
+
+## Yang bisa Anda lakukan
+
+- Scan stiker pada produk yang Anda beli, jangan hanya mengandalkan penjelasan penjual.
+- Jika hasilnya **tidak terverifikasi**, hubungi penjual atau brand terkait.
+- Jaga kata sandi akun Anda, dan jangan pernah membagikan **seed phrase** wallet Anda kepada siapa pun.
+
+:::note[Dalam penyusunan]
+Penjelasan tentang apa yang terjadi jika kode QR difoto lalu ditempel pada produk lain akan ditambahkan setelah dikonfirmasi tim.
 :::

@@ -1,22 +1,26 @@
 ---
 sidebar_position: 3
 title: "Program Loyalitas"
-description: "Program loyalitas berbasis token di ekosistem blockchain Flagshiiip."
+description: "Penjelasan program hadiah loyalitas Flagshiiip bagi pembeli dan brand."
 ---
 
 # Program Loyalitas
 
-Flagshiiip menyediakan sistem token loyalitas yang memungkinkan brand memberi hadiah kepada pelanggannya dengan token yang didukung oleh merek.
+## Seperti kartu member
 
-## Manfaat
+Banyak brand punya kartu member yang memberi poin atau hadiah bagi pelanggan setia. Program loyalitas Flagshiiip punya tujuan yang sama, tetapi hadiahnya berupa [token](./token-ftn.md) digital.
 
-- **Bagi brand**: membangun kesetiaan pelanggan lewat program berbasis token di ekosistem blockchain.
-- **Bagi pelanggan**: menerima token sebagai imbalan, dengan nilai loyalitas yang transparan.
+## Bagi Anda sebagai pembeli
 
-## Ketersediaan
+- Setelah memverifikasi produk, Anda berkesempatan menerima hadiah dari brand.
+- Hadiahnya tersimpan di wallet Anda.
 
-Sistem token atau loyalitas tercantum sebagai bagian dari paket **Custom**, bersama smart contract kustom. Lihat [Paket Layanan](../layanan/paket-layanan.md).
+Cara mengklaimnya ada di [Klaim Hadiah](../panduan-pengguna/klaim-token.md).
+
+## Bagi brand
+
+Brand dapat membangun kesetiaan pelanggan dengan memberi hadiah berbasis token kepada pembelinya. Program ini diatur oleh masing-masing brand.
 
 :::caution[Perlu verifikasi tim]
-Belum dikonfirmasi apakah produk dari brand paket Starter juga menghasilkan token, dan apakah token yang diterima pembeli adalah FTN atau token milik masing-masing brand.
+Belum dikonfirmasi apakah semua produk memberi hadiah, atau hanya produk dari brand yang mengikuti program ini. Jenis, jumlah, dan syarat hadiah juga belum dikonfirmasi.
 :::

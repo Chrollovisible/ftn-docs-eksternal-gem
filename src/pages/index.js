@@ -1,47 +1,36 @@
-import Translate, {translate} from '@docusaurus/Translate';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
+import {translate} from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/pengenalan/apa-itu-flagshiiip">
-            <Translate id="homepage.button">
-              Apa itu Flagshiiip? (Mulai Belajar)
-            </Translate>
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import HeroSection from '@site/src/components/HeroSection';
+import CategoryMarquee from '@site/src/components/CategoryMarquee';
+import ComparisonSection from '@site/src/components/ComparisonSection';
+import FeaturesBento from '@site/src/components/FeaturesBento';
+import WorkflowSection from '@site/src/components/WorkflowSection';
+import CtaSection from '@site/src/components/CtaSection';
 
 export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+
   return (
     <Layout
-      title={translate({id: 'homepage.layoutTitle', message: 'Beranda'})}
+      title={translate({
+        id: 'homepage.layoutTitle',
+        message: 'Flagshiiip Docs - Panduan Verifikasi Produk Asli & Hadiah Digital',
+      })}
       description={translate({
         id: 'homepage.layoutDescription',
-        message: 'Dokumentasi resmi platform Flagshiiip',
+        message:
+          'Panduan resmi verifikasi keaslian produk fisik dengan stiker pintar dan program hadiah digital Flagshiiip (FTN) yang mudah digunakan oleh siapa saja.',
       })}>
-      <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HeroSection />
+        <CategoryMarquee />
+        <ComparisonSection />
+        <FeaturesBento />
+        <WorkflowSection />
+        <CtaSection />
       </main>
     </Layout>
   );

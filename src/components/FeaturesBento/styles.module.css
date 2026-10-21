@@ -1,0 +1,675 @@
+.section {
+  padding: 6.5rem 1.5rem;
+  background-color: var(--ifm-background-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #38bdf8;
+  margin-bottom: 0.85rem;
+  background: rgba(56, 189, 248, 0.1);
+  padding: 0.25rem 0.85rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--flag-text-primary);
+  letter-spacing: -0.025em;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--flag-text-secondary);
+  line-height: 1.65;
+}
+
+/* 3-Column Alternating Bento Grid */
+.bentoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+@media (max-width: 992px) {
+  .bentoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .bentoGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 24px;
+  padding: 2.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-decoration: none !important;
+  color: inherit !important;
+  overflow: hidden;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 24px 50px -10px rgba(0, 0, 0, 0.5),
+              0 0 25px -5px rgba(56, 189, 248, 0.15);
+}
+
+.spanTwo {
+  grid-column: span 2;
+}
+
+@media (max-width: 640px) {
+  .spanTwo {
+    grid-column: span 1;
+  }
+}
+
+.cardGlowEffect {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.2) 0%, transparent 70%);
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+.cardGlowEffectPurple {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.25) 0%, transparent 70%);
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+.cardHeaderClean {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1.25rem;
+}
+
+.cardHeaderCleanBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.cardHeaderCleanEnd {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1.25rem;
+}
+
+.inlineBadgeIcon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.layeredSymbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.4));
+  transition: transform 0.2s ease;
+}
+
+.card:hover .layeredSymbol {
+  transform: scale(1.1);
+}
+
+.tokenBrandPill {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+}
+
+.tokenBrandName {
+  font-size: 0.78rem;
+  font-weight: 750;
+  color: #fbbf24;
+  font-family: var(--ifm-font-family-monospace);
+  letter-spacing: 0.02em;
+}
+
+.nodeNetworkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.4));
+  transition: transform 0.2s ease;
+}
+
+.card:hover .nodeNetworkIcon {
+  transform: rotate(15deg);
+}
+
+.badge {
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--flag-text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+}
+
+.badgeHighlight {
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 0.25rem 0.7rem;
+  border-radius: 9999px;
+}
+
+.badgeReward {
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #c084fc;
+  background: rgba(168, 85, 247, 0.14);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  padding: 0.25rem 0.7rem;
+  border-radius: 9999px;
+}
+
+.cardTitle {
+  font-size: 1.35rem;
+  font-weight: 750;
+  color: var(--flag-text-primary);
+  margin-bottom: 0.65rem;
+  line-height: 1.3;
+}
+
+.cardDesc {
+  font-size: 0.92rem;
+  color: var(--flag-text-secondary);
+  line-height: 1.55;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+/* ========================================================
+   INTERACTIVE WIDGET 1: VIEWFINDER BOX (Card 1)
+   ======================================================== */
+.viewfinderBox {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.vfTop {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.vfStatusDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 8px #10b981;
+}
+
+.vfStatusText {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #38bdf8;
+  letter-spacing: 0.05em;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.vfTarget {
+  position: relative;
+  height: 60px;
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.vfCorner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: #38bdf8;
+  border-style: solid;
+}
+
+.vfTl { top: 6px; left: 6px; border-width: 2px 0 0 2px; }
+.vfTr { top: 6px; right: 6px; border-width: 2px 2px 0 0; }
+.vfBl { bottom: 6px; left: 6px; border-width: 0 0 2px 2px; }
+.vfBr { bottom: 6px; right: 6px; border-width: 0 2px 2px 0; }
+
+.vfScanBeam {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #38bdf8;
+  box-shadow: 0 0 12px 2px #38bdf8;
+  animation: beamSweepHorizontal 2.5s infinite alternate ease-in-out;
+}
+
+@keyframes beamSweepHorizontal {
+  0% { left: 10%; }
+  100% { left: 90%; }
+}
+
+.vfCenterCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  z-index: 2;
+}
+
+.vfSerial {
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: var(--ifm-font-family-monospace);
+  color: #f8fafc;
+}
+
+.vfMatchTag {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* ========================================================
+   INTERACTIVE WIDGET 2: CRYPTO NONCE BOX (Card 2)
+   ======================================================== */
+.cryptoNonceBox {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.nonceRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.nonceKey {
+  font-size: 0.7rem;
+  color: #94a3b8;
+}
+
+.nonceValLocked {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
+
+.nonceHash {
+  font-size: 0.75rem;
+  color: #cbd5e1;
+}
+
+/* ========================================================
+   INTERACTIVE WIDGET 3: CERTIFICATE BADGE (Card 3)
+   ======================================================== */
+.certBadgePreview {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.certSealIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 10px rgba(16, 185, 129, 0.45));
+}
+
+.certBadgeText {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: #f8fafc;
+  font-weight: 700;
+  gap: 0.15rem;
+}
+
+.certTitle {
+  font-size: 0.82rem;
+  color: #f8fafc;
+  font-weight: 750;
+}
+
+.certPolygon {
+  font-size: 0.68rem;
+  color: #10b981;
+  font-weight: 750;
+  font-family: var(--ifm-font-family-monospace);
+  letter-spacing: 0.04em;
+}
+
+/* ========================================================
+   INTERACTIVE WIDGET 4: WALLET TOKEN BOX (Card 4)
+   ======================================================== */
+.walletBox {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.walletHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.walletMeta {
+  display: flex;
+  flex-direction: column;
+}
+
+.walletLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 0.05em;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.walletAddress {
+  font-size: 0.72rem;
+  color: #c084fc;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.gaslessTag {
+  font-size: 0.72rem;
+  font-weight: 750;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+}
+
+.walletAmountRow {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.coinBalanceIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.45));
+}
+
+.walletNumber {
+  font-size: 1.75rem;
+  font-weight: 850;
+  color: #f8fafc;
+  letter-spacing: -0.02em;
+}
+
+.walletCurrency {
+  font-size: 1rem;
+  font-weight: 750;
+  color: #38bdf8;
+}
+
+.walletGain {
+  margin-left: auto;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #10b981;
+}
+
+/* ========================================================
+   INTERACTIVE WIDGET 5: SOCIAL LOGIN BOX (Card 5)
+   ======================================================== */
+.socialLoginBox {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.loginProvidersGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.35rem 0.65rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.loginDivider {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 0.75rem;
+}
+
+.loginText {
+  font-size: 0.85rem;
+  color: #f8fafc;
+  font-weight: 650;
+}
+
+/* ========================================================
+   INTERACTIVE WIDGET 6: RADAR TELEMETRY (Card 6)
+   ======================================================== */
+.telemetryBox {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.radarVisual {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.radarCircle1 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px dashed rgba(56, 189, 248, 0.2);
+}
+
+.radarCircle2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+}
+
+.radarSweep {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  right: 0;
+  transform-origin: bottom left;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.4) 0%, transparent 80%);
+  animation: radarSpin 3s linear infinite;
+}
+
+@keyframes radarSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.radarBlip {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #38bdf8;
+  box-shadow: 0 0 6px #38bdf8;
+}
+
+.blipJakarta { top: 35%; left: 30%; }
+.blipSurabaya { top: 55%; left: 65%; }
+.blipBali { top: 60%; left: 80%; }
+
+.telemetryStats {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-grow: 1;
+}
+
+.telItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.telVal {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #f8fafc;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.telValGreen {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #10b981;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.telLabel {
+  font-size: 0.72rem;
+  color: #94a3b8;
+}
+
+/* Card Link Footer */
+.cardLink {
+  margin-top: auto;
+  font-size: 0.9rem;
+  font-weight: 650;
+  color: #38bdf8;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: gap 0.2s ease;
+}
+
+.cardArrow {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .cardArrow {
+  transform: translateX(5px);
+}

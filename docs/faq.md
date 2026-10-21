@@ -1,53 +1,51 @@
 ---
 sidebar_position: 7
-title: "FAQ"
-description: "Pertanyaan yang sering diajukan tentang Flagshiiip."
+title: "Pertanyaan yang Sering Diajukan"
+description: "Jawaban singkat atas pertanyaan umum tentang Flagshiiip."
 ---
 
-# FAQ
+# Pertanyaan yang Sering Diajukan
 
 ## Apa itu Flagshiiip?
 
-Platform perlindungan keaslian produk dan program loyalitas berbasis blockchain. Selengkapnya di [Apa itu Flagshiiip?](./pengenalan/apa-itu-flagshiiip.md).
+Cara mudah memastikan produk yang Anda beli asli, dengan memindai stiker QR di kemasannya. Selengkapnya di [Apa itu Flagshiiip?](./pengenalan/apa-itu-flagshiiip.md).
 
 ## Bagaimana cara mengecek keaslian produk?
 
-Pindai QR code pada stiker Flagshiiip di kemasan produk lewat aplikasi. Produk asli menampilkan sertifikat keaslian digital. Lihat [Scan QR](./panduan-pengguna/scan-qr.md).
+Buka aplikasi, scan QR pada stiker Flagshiiip di kemasan, lalu lihat hasilnya. Panduannya ada di [Scan QR](./panduan-pengguna/scan-qr.md).
 
-## Apakah aplikasinya gratis dan tersedia di mana?
-
-Aplikasi tersedia untuk Android dan iOS. Lihat [Instal Aplikasi](./panduan-pengguna/install-aplikasi.md).
+## Apakah aplikasinya gratis?
 
 :::caution[Perlu verifikasi tim]
-Informasi biaya penggunaan aplikasi bagi pembeli belum dikonfirmasi.
+Informasi biaya pemakaian aplikasi bagi pembeli belum dikonfirmasi.
 :::
 
-## Apa yang terjadi jika QR dipindai dua kali?
+## Apa yang terjadi jika QR sudah pernah dipindai?
 
-Satu QR hanya dapat diklaim satu kali.
+Satu kode QR hanya bisa diklaim satu kali. Jika hasilnya tidak terverifikasi, hubungi penjual atau brand. Lihat [Verifikasi Keaslian](./cara-kerja/verifikasi-keaslian.md).
+
+## Apakah saya wajib punya wallet?
+
+Wallet hanya diperlukan untuk mengklaim hadiah. Lihat [Hubungkan Wallet](./panduan-pengguna/hubungkan-wallet.md).
 
 :::caution[Perlu verifikasi tim]
-Pesan dan perilaku aplikasi saat QR sudah pernah diklaim perlu dikonfirmasi.
+Belum dikonfirmasi apakah mengecek keaslian saja memerlukan wallet.
 :::
 
-## Apakah saya perlu wallet untuk memverifikasi produk?
+## Apa itu token?
 
-Untuk mengklaim token, Anda perlu menghubungkan atau membuat wallet di aplikasi. Lihat [Hubungkan Wallet](./panduan-pengguna/hubungkan-wallet.md).
+Token adalah semacam poin digital yang bisa Anda terima sebagai hadiah dari brand, dan disimpan di wallet Anda. Selengkapnya di [Apa itu Token?](./token/token-ftn.md) dan [Klaim Hadiah](./panduan-pengguna/klaim-token.md).
 
-:::caution[Perlu verifikasi tim]
-Belum dikonfirmasi apakah verifikasi keaslian saja (tanpa klaim token) memerlukan wallet.
-:::
+## Apa itu blockchain? Apakah saya perlu memahaminya?
 
-## Bagaimana jika QR difoto lalu dipasang pada produk palsu?
+Blockchain adalah teknologi pencatatan digital yang membantu menjaga data tetap aman dan sulit diubah. Anda **tidak perlu memahaminya** untuk memakai Flagshiiip, karena semuanya berjalan otomatis di balik layar. Penjelasan sederhananya ada di [Blockchain, Dijelaskan Sederhana](./teknologi/blockchain.md).
+
+## Bagaimana jika QR difoto lalu ditempel di produk palsu?
 
 :::note[Dalam penyusunan]
-Jawaban resmi akan ditambahkan setelah dikonfirmasi tim teknis. Lihat juga [Keamanan dan Anti-Duplikasi](./teknologi/keamanan-dan-anti-duplikasi.md).
+Jawaban resmi akan ditambahkan setelah dikonfirmasi tim. Lihat juga [Mengapa Sulit Dipalsukan?](./teknologi/keamanan-dan-anti-duplikasi.md).
 :::
 
-## Apa itu token FTN dan apa gunanya?
+## Saya pemilik brand. Bagaimana cara memakai Flagshiiip?
 
-Token FTN adalah aset digital dalam ekosistem loyalitas Flagshiiip Tokenium. Selengkapnya di [Token FTN](./token/token-ftn.md).
-
-## Bagaimana brand bisa memakai Flagshiiip?
-
-Pilih paket yang sesuai lalu hubungi tim Flagshiiip. Lihat [Paket Layanan](./layanan/paket-layanan.md) dan [Onboarding Brand](./layanan/onboarding-brand.md).
+Lihat halaman [Untuk Brand](./layanan/untuk-brand.md).

@@ -1,30 +1,157 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Flagshiiip Docs - Ultra-Modern Design System
+ * Inspired by Linear, Stripe, and Solana Web3 aesthetics
  */
 
-/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Brand Core Colors (Electric Cyan & Hyper Indigo) */
+  --ifm-color-primary: #0284c7;
+  --ifm-color-primary-dark: #0369a1;
+  --ifm-color-primary-darker: #075985;
+  --ifm-color-primary-darkest: #0c4a6e;
+  --ifm-color-primary-light: #38bdf8;
+  --ifm-color-primary-lighter: #7dd3fc;
+  --ifm-color-primary-lightest: #bae6fd;
+
+  --flag-accent-gradient: linear-gradient(135deg, #0284c7 0%, #3b82f6 50%, #6366f1 100%);
+  --flag-accent-gradient-hover: linear-gradient(135deg, #0369a1 0%, #2563eb 50%, #4f46e5 100%);
+  --flag-accent-glow: rgba(2, 132, 199, 0.2);
+  --flag-surface: #ffffff;
+  --flag-surface-card: #f8fafc;
+  --flag-surface-card-hover: #ffffff;
+  --flag-border: #e2e8f0;
+  --flag-border-hover: #cbd5e1;
+  --flag-text-primary: #0f172a;
+  --flag-text-secondary: #475569;
+  --flag-text-muted: #64748b;
+  --flag-badge-bg: rgba(2, 132, 199, 0.08);
+  --flag-badge-border: rgba(2, 132, 199, 0.25);
+  --flag-badge-text: #0369a1;
+
+  --ifm-font-family-base: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --ifm-code-font-size: 88%;
+  --ifm-heading-font-weight: 750;
+  --ifm-heading-letter-spacing: -0.025em;
+
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.88);
+  --ifm-navbar-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+
+  --flag-hero-bg: radial-gradient(circle at 50% 0%, rgba(2, 132, 199, 0.12) 0%, rgba(248, 250, 252, 0) 70%);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #38bdf8;
+  --ifm-color-primary-dark: #0284c7;
+  --ifm-color-primary-darker: #0369a1;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #7dd3fc;
+  --ifm-color-primary-lighter: #bae6fd;
+  --ifm-color-primary-lightest: #e0f2fe;
+
+  --flag-accent-gradient: linear-gradient(135deg, #38bdf8 0%, #60a5fa 45%, #a855f7 100%);
+  --flag-accent-gradient-hover: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 45%, #9333ea 100%);
+  --flag-accent-glow: rgba(56, 189, 248, 0.25);
+  --flag-surface: #07090e;
+  --flag-surface-card: rgba(15, 23, 42, 0.65);
+  --flag-surface-card-hover: rgba(30, 41, 59, 0.85);
+  --flag-border: rgba(255, 255, 255, 0.08);
+  --flag-border-hover: rgba(56, 189, 248, 0.35);
+  --flag-text-primary: #f8fafc;
+  --flag-text-secondary: #94a3b8;
+  --flag-text-muted: #64748b;
+  --flag-badge-bg: rgba(56, 189, 248, 0.1);
+  --flag-badge-border: rgba(56, 189, 248, 0.28);
+  --flag-badge-text: #38bdf8;
+
+  --ifm-background-color: #07090e;
+  --ifm-navbar-background-color: rgba(7, 9, 14, 0.85);
+  --ifm-navbar-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+
+  --flag-hero-bg: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15) 0%, rgba(7, 9, 14, 0) 70%);
+}
+
+/* Glassmorphism Navbar with Frosted Blur */
+.navbar {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--flag-border) !important;
+  transition: all 0.25s ease;
+  box-shadow: var(--ifm-navbar-shadow) !important;
+}
+
+.navbar__inner {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.navbar__title {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  font-size: 1.3rem;
+  background: var(--flag-accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar__item {
+  font-weight: 550;
+  font-size: 0.925rem;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Modern Document Container */
+.main-wrapper {
+  background-color: var(--ifm-background-color);
+  min-height: 100vh;
+}
+
+/* Keyframe Animations */
+@keyframes floatAnimation {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-7px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  50% { opacity: 0.65; transform: scale(1.06); }
+}
+
+@keyframes shimmerAnimation {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--flag-border);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--flag-border-hover);
 }

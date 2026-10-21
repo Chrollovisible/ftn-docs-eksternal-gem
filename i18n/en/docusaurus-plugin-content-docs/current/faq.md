@@ -1,53 +1,51 @@
 ---
 sidebar_position: 7
-title: "FAQ"
-description: "Frequently asked questions about Flagshiiip."
+title: "Frequently Asked Questions"
+description: "Short answers to common questions about Flagshiiip."
 ---
 
-# FAQ
+# Frequently Asked Questions
 
 ## What is Flagshiiip?
 
-A platform for product authenticity protection and blockchain-based loyalty programs. More at [What is Flagshiiip?](./pengenalan/apa-itu-flagshiiip.md).
+An easy way to confirm the product you bought is authentic, by scanning the QR sticker on its packaging. More at [What is Flagshiiip?](./pengenalan/apa-itu-flagshiiip.md).
 
 ## How do I check whether a product is authentic?
 
-Scan the QR code on the Flagshiiip sticker on the product packaging with the app. An authentic product displays a digital certificate of authenticity. See [Scan the QR](./panduan-pengguna/scan-qr.md).
+Open the app, scan the QR on the Flagshiiip sticker on the packaging, then view the result. The guide is at [Scan the QR](./panduan-pengguna/scan-qr.md).
 
-## Is the app free, and where is it available?
-
-The app is available for Android and iOS. See [Install the App](./panduan-pengguna/install-aplikasi.md).
+## Is the app free?
 
 :::caution[Needs team verification]
 Information about whether buyers pay to use the app has not been confirmed.
 :::
 
-## What happens if a QR code is scanned twice?
+## What happens if a QR has already been scanned?
 
-Each QR code can only be claimed once.
+Each QR code can only be claimed once. If the result is not verified, contact the seller or the brand. See [Authenticity Verification](./cara-kerja/verifikasi-keaslian.md).
 
-:::caution[Needs team verification]
-The message and app behavior when a QR has already been claimed need to be confirmed.
-:::
+## Do I have to have a wallet?
 
-## Do I need a wallet to verify a product?
-
-To claim tokens, you need to connect or create a wallet in the app. See [Connect a Wallet](./panduan-pengguna/hubungkan-wallet.md).
+A wallet is only needed to claim a reward. See [Connect a Wallet](./panduan-pengguna/hubungkan-wallet.md).
 
 :::caution[Needs team verification]
-It has not been confirmed whether authenticity verification alone (without claiming tokens) requires a wallet.
+It has not been confirmed whether checking authenticity alone requires a wallet.
 :::
 
-## What if a QR code is photographed and placed on a counterfeit product?
+## What is a token?
+
+A token is a kind of digital point you can receive as a reward from a brand, kept in your wallet. More at [What is a Token?](./token/token-ftn.md) and [Claim a Reward](./panduan-pengguna/klaim-token.md).
+
+## What is blockchain? Do I need to understand it?
+
+Blockchain is a digital recording technology that helps keep data secure and hard to change. You **do not need to understand it** to use Flagshiiip, because everything runs automatically behind the scenes. A simple explanation is at [Blockchain, Explained Simply](./teknologi/blockchain.md).
+
+## What if a QR is photographed and put on a fake product?
 
 :::note[Work in progress]
-The official answer will be added once confirmed by the technical team. See also [Security and Anti-Duplication](./teknologi/keamanan-dan-anti-duplikasi.md).
+The official answer will be added once confirmed by the team. See also [Why Is It Hard to Counterfeit?](./teknologi/keamanan-dan-anti-duplikasi.md).
 :::
 
-## What is the FTN token and what is it for?
+## I am a brand owner. How do I use Flagshiiip?
 
-The FTN token is a digital asset in the Flagshiiip Tokenium loyalty ecosystem. More at [FTN Token](./token/token-ftn.md).
-
-## How can a brand use Flagshiiip?
-
-Choose a suitable plan and contact the Flagshiiip team. See [Service Plans](./layanan/paket-layanan.md) and [Brand Onboarding](./layanan/onboarding-brand.md).
+See the [For Brands](./layanan/untuk-brand.md) page.

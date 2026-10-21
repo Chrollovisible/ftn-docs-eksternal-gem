@@ -1,0 +1,185 @@
+.ctaSection {
+  padding: 6.5rem 1.5rem 7.5rem;
+  background-color: var(--ifm-background-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  border-radius: 32px;
+  background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15) 0%, rgba(15, 23, 42, 0.85) 60%), #07090e;
+  border: 1.5px solid rgba(56, 189, 248, 0.35);
+  padding: 4.5rem 2.5rem;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.8),
+              0 0 50px -10px rgba(56, 189, 248, 0.25),
+              inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.meshGlow {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 350px;
+  background: radial-gradient(ellipse at center, rgba(56, 189, 248, 0.3) 0%, rgba(168, 85, 247, 0.2) 45%, transparent 75%);
+  filter: blur(50px);
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.badgeWrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 0.35rem 0.95rem;
+  border-radius: 9999px;
+  margin-bottom: 1.5rem;
+}
+
+.pulseDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #38bdf8;
+  box-shadow: 0 0 8px #38bdf8;
+  animation: pulseDot 2s infinite ease-in-out;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 0.6; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.badge {
+  font-size: 0.78rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #38bdf8;
+}
+
+.title {
+  font-size: 2.85rem;
+  font-weight: 850;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  color: #f8fafc;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.15rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: #94a3b8;
+  line-height: 1.65;
+  margin-bottom: 2.5rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 2.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.95rem 2rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  letter-spacing: -0.01em;
+}
+
+.btnPrimary {
+  background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #7c3aed 100%);
+  color: #ffffff !important;
+  box-shadow: 0 10px 30px -4px rgba(2, 132, 199, 0.5),
+              inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px -4px rgba(2, 132, 199, 0.65);
+  text-decoration: none;
+}
+
+.arrow {
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.btnPrimary:hover .arrow {
+  transform: translateX(4px);
+}
+
+.btnSecondary {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #f8fafc !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.btnSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(56, 189, 248, 0.4);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.trustBadges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  color: #94a3b8;
+  font-size: 0.88rem;
+  font-weight: 550;
+  flex-wrap: wrap;
+}
+
+.trustItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.trustCheck {
+  color: #10b981;
+  font-weight: 800;
+}
+
+.trustDot {
+  color: rgba(255, 255, 255, 0.2);
+}

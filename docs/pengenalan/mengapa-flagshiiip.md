@@ -1,34 +1,28 @@
 ---
 sidebar_position: 2
 title: "Mengapa Flagshiiip?"
-description: "Masalah yang dijawab Flagshiiip dan keunggulan pendekatannya."
+description: "Manfaat Flagshiiip bagi pembeli."
 ---
 
 # Mengapa Flagshiiip?
 
-## Masalah yang dijawab
+## Masalahnya
 
-- **Produk palsu** merugikan brand dan membuat pembeli sulit memastikan keaslian barang yang dibeli.
-- **Program loyalitas konvensional** sering kehilangan nilainya dengan cepat, terkunci pada satu brand, dan memberi pengguna fleksibilitas yang terbatas.
+Produk tiruan beredar di banyak tempat dan sering sulit dibedakan dari yang asli. Pembeli bisa rugi, dan brand pun ikut dirugikan.
 
-## Pendekatan Flagshiiip
+## Bagaimana Flagshiiip membantu Anda
 
-| Tantangan | Pendekatan Flagshiiip |
+| Yang Anda butuhkan | Yang Flagshiiip berikan |
 |---|---|
-| Sulit memastikan keaslian produk | Verifikasi instan lewat satu kali scan QR, dengan sertifikat produk asli atau terverifikasi |
-| Kode mudah digandakan | QR unik pada tiap stiker, dan satu QR hanya dapat diklaim satu kali |
-| Brand tidak tahu aktivitas produknya | Dashboard monitoring untuk scan, lokasi, dan aktivitas |
-| Loyalitas kurang bernilai | Program loyalitas berbasis token di ekosistem blockchain |
-| Kepemilikan produk tidak tercatat | Pencatatan kepemilikan digital pada aplikasi |
+| Yakin produk yang dibeli asli | Cek keaslian lewat satu kali scan QR |
+| Bukti keaslian | Sertifikat keaslian digital di aplikasi |
+| Catatan produk yang Anda miliki | Produk dapat disimpan di aplikasi |
+| Merasa dihargai sebagai pelanggan | Hadiah loyalitas dari brand, jika tersedia |
 
-## Keunggulan utama
+## Mudah dipakai
 
-- **Teknologi anti-pemalsuan**: keaslian produk didukung blockchain.
-- **Kepemilikan digital**: setiap produk dapat tercatat sebagai aset yang dapat diverifikasi.
-- **Ekosistem transparan**: pelacakan perjalanan produk dari brand hingga konsumen.
-- **Sistem token loyalitas**: pelanggan dapat menerima hadiah berupa token yang didukung oleh merek.
-- **Verifikasi instan**: hasil terlihat setelah QR dipindai.
+- Tidak perlu alat khusus, cukup ponsel dan aplikasi.
+- Tidak perlu paham teknologi.
+- Hasilnya langsung terlihat setelah scan.
 
-:::caution[Perlu verifikasi tim]
-Cakupan pelacakan perjalanan produk dan status fitur kepemilikan yang dapat diperdagangkan perlu dikonfirmasi sebelum dipublikasikan.
-:::
+Siap mencoba? Mulai dari [Mulai Cepat](../mulai-cepat.md).

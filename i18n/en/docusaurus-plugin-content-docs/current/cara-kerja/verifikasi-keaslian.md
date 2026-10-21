@@ -1,25 +1,31 @@
 ---
 sidebar_position: 2
 title: "Authenticity Verification"
-description: "How buyers confirm a product is authentic by scanning a QR code."
+description: "How to read the scan result: verified or not verified."
 ---
 
 # Authenticity Verification
 
-Verification is done by scanning the QR code on the Flagshiiip sticker on the product packaging with the app.
+After you scan the QR, the app shows one of the two results below.
 
-## Verification result
+![Scan result: verified or not verified](/img/diagram/hasil-scan-en.svg)
 
-A verified product displays a **digital certificate of authenticity** as proof that the product is authentic and officially registered. The product status is shown as authentic or verified.
+## If verified
 
-## Basic principles
+The app shows a **digital certificate of authenticity**. This means your product is authentic and officially registered.
 
-- Every sticker has a unique QR code.
-- Each QR code can only be claimed once.
-- The verification result is backed by blockchain technology.
+## If not verified
 
-For more on protection against duplication, see [Security and Anti-Duplication](../teknologi/keamanan-dan-anti-duplikasi.md).
+This result can appear, for example, if the code is not recognized or has already been claimed. Do not panic, but it is best to:
 
-:::note[Work in progress]
-A technical explanation of the data recorded on the blockchain during verification will be added once confirmed by the technical team.
+1. Make sure the sticker is not damaged, then scan once more.
+2. Contact the seller you bought from.
+3. Contact the brand of the product.
+
+## Why can a code only be claimed once?
+
+Every sticker has a unique code that can only be claimed one time. This makes the code hard to copy and helps protect you from counterfeit products.
+
+:::caution[Needs team verification]
+The wording and look of the messages in the app for each result need to be matched to the actual app.
 :::

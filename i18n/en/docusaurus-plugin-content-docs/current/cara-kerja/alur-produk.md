@@ -1,26 +1,22 @@
 ---
 sidebar_position: 1
 title: "Product Flow"
-description: "How Flagshiiip is used, from applying stickers to claiming tokens."
+description: "How Flagshiiip is used, from installing the app to seeing the result."
 ---
 
 # Product Flow
 
-## For brands
+From the packaging to the result on your phone screen, the flow is simple.
 
-1. The brand chooses a service plan and orders Flagshiiip stickers.
-2. Every sticker has a unique QR code and is placed on the product packaging.
-3. The brand monitors scan activity through the dashboard.
+![Buyer flow: get the app, scan the QR, see the result, claim a reward](/img/diagram/alur-pembeli-en.svg)
 
-## For buyers
+## Step by step
 
-1. **Download the app.** Install the Flagshiiip app from Google Play or the App Store.
-2. **Scan the QR.** Scan the Flagshiiip QR code registered on the product packaging.
-3. **Connect a wallet.** Connect an existing wallet or create a new wallet address in the app.
-4. **Authenticity and token claim.** Buyers receive authentication from the blockchain and can claim tokens.
-
-Step-by-step guides are in the [User Guide](../panduan-pengguna/install-aplikasi.md) section.
+1. **Get the app.** Install the app from Google Play or the App Store, then create an account. See [Install the App](../panduan-pengguna/install-aplikasi.md).
+2. **Scan the QR.** Point the app's camera at the Flagshiiip sticker on the product packaging. See [Scan the QR](../panduan-pengguna/scan-qr.md).
+3. **See the result.** The app shows a certificate of authenticity if the product is verified. See [Authenticity Verification](./verifikasi-keaslian.md).
+4. **Claim a reward (if available).** For certain products, you can claim a reward from the brand. See [Claim a Reward](../panduan-pengguna/klaim-token.md).
 
 :::caution[Needs team verification]
-It has not been confirmed whether every scan produces a token, or only for brands with a specific loyalty program.
+It has not been confirmed whether rewards are available for all products or only for brands with a specific program.
 :::

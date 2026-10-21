@@ -1,25 +1,33 @@
 ---
 sidebar_position: 2
-title: "Security and Anti-Duplication"
-description: "How Flagshiiip protects products from counterfeiting and code duplication."
+title: "Why Is It Hard to Counterfeit?"
+description: "How Flagshiiip's unique codes work and what you can do to stay safe."
 ---
 
-# Security and Anti-Duplication
+# Why Is It Hard to Counterfeit?
 
-## Protection principles
+## Like a concert ticket
 
-- **Unique QR**: every sticker has its own QR code, and no two stickers share the same code.
-- **One claim per QR**: each QR code can only be claimed once.
-- **Digital certificate**: a verified product displays a digital certificate of authenticity.
-- **Blockchain support**: the verification result is backed by blockchain technology.
-- **Brand monitoring**: the dashboard shows scan, location, and activity data.
+Think of a concert ticket. Every ticket has its own number, and one ticket can only be used to enter once. If a second person shows up with a ticket with the same number, the staff immediately know something is wrong.
 
-## Security tips for users
+A Flagshiiip sticker works in a similar way.
 
-- Scan QR codes only through the official app.
-- Never share your wallet's seed phrase or private key with anyone.
-- If a verification result looks suspicious, contact the seller or the brand concerned.
+![Every sticker has a unique code that can only be claimed once](/img/diagram/kode-unik-en.svg)
 
-:::caution[Needs team verification]
-A more detailed explanation of how the system handles QR codes that are photographed or duplicated, and the message shown when a QR has already been claimed, needs to be confirmed by the team before publishing. This question is likely to be asked by brands and prospective users.
+## Three things that protect you
+
+1. **Unique code**: every sticker has its own QR code, and no two stickers are alike.
+2. **One claim**: each code can only be claimed once.
+3. **Records that are hard to change**: verification results are backed by digital recording technology ([blockchain](./blockchain.md)).
+
+In addition, brands can monitor scan activity for their products, which makes suspicious patterns easier to spot.
+
+## What you can do
+
+- Scan the sticker on the product you buy instead of relying only on the seller's word.
+- If the result is **not verified**, contact the seller or the brand.
+- Protect your account password, and never share your wallet's **seed phrase** with anyone.
+
+:::note[Work in progress]
+An explanation of what happens if a QR code is photographed and placed on another product will be added once confirmed by the team.
 :::

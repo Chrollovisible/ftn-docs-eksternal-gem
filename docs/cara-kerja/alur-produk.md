@@ -1,26 +1,22 @@
 ---
 sidebar_position: 1
 title: "Alur Produk"
-description: "Alur penggunaan Flagshiiip dari pemasangan stiker hingga klaim token."
+description: "Alur penggunaan Flagshiiip dari unduh aplikasi hingga melihat hasil."
 ---
 
 # Alur Produk
 
-## Dari sisi brand
+Dari kemasan sampai hasil di layar ponsel Anda, alurnya sederhana.
 
-1. Brand memilih paket layanan dan memesan stiker Flagshiiip.
-2. Setiap stiker memiliki QR code unik dan dipasang pada kemasan produk.
-3. Brand memantau aktivitas scan melalui dashboard.
+![Alur pembeli: unduh aplikasi, scan QR, lihat hasil, klaim hadiah](/img/diagram/alur-pembeli-id.svg)
 
-## Dari sisi pembeli
+## Langkah demi langkah
 
-1. **Unduh aplikasi.** Pasang aplikasi Flagshiiip dari Google Play atau App Store.
-2. **Scan QR.** Pindai QR Flagshiiip yang terdaftar pada kemasan produk.
-3. **Hubungkan wallet.** Hubungkan atau buat alamat wallet baru di aplikasi.
-4. **Keaslian dan klaim token.** Pembeli mendapatkan autentikasi dari blockchain dan dapat mengklaim token.
-
-Panduan langkah demi langkah ada di bagian [Panduan Pengguna](../panduan-pengguna/install-aplikasi.md).
+1. **Unduh aplikasi.** Pasang aplikasi dari Google Play atau App Store, lalu buat akun. Lihat [Instal Aplikasi](../panduan-pengguna/install-aplikasi.md).
+2. **Scan QR.** Arahkan kamera aplikasi ke stiker Flagshiiip di kemasan produk. Lihat [Scan QR](../panduan-pengguna/scan-qr.md).
+3. **Lihat hasilnya.** Aplikasi menampilkan sertifikat keaslian jika produk terverifikasi. Lihat [Verifikasi Keaslian](./verifikasi-keaslian.md).
+4. **Klaim hadiah (jika tersedia).** Pada produk tertentu, Anda dapat mengklaim hadiah dari brand. Lihat [Klaim Hadiah](../panduan-pengguna/klaim-token.md).
 
 :::caution[Perlu verifikasi tim]
-Apakah setiap scan menghasilkan token, atau hanya untuk brand dengan program loyalitas tertentu, belum dikonfirmasi.
+Belum dikonfirmasi apakah hadiah tersedia untuk semua produk atau hanya untuk brand dengan program tertentu.
 :::

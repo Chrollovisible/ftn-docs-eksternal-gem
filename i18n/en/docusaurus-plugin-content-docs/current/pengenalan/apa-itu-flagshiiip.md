@@ -1,34 +1,31 @@
 ---
 sidebar_position: 1
 title: "What is Flagshiiip?"
-description: "An introduction to the Flagshiiip platform for product authenticity protection and blockchain-based loyalty programs."
+description: "An introduction to Flagshiiip, an easy way to confirm the products you buy are authentic."
 ---
 
 # What is Flagshiiip?
 
-Flagshiiip is a platform that helps brands protect their products from counterfeiting while building customer loyalty. Every product gets a smart sticker with a unique QR code. Buyers scan the QR code with the app to confirm that the product is authentic and officially registered, and the verification result is backed by blockchain technology.
+Ever wondered whether something you bought is real or a fake? Flagshiiip helps answer that in seconds.
 
-The app's tagline: **Authenticity Guaranteed. Loyalty Becomes an Asset.**
+Every product protected by Flagshiiip has a **special sticker with a unique QR code** on its packaging. Just scan the code with the app, and the app shows you whether the product is authentic.
 
-## Two main benefits
+![Flagshiiip at a glance in three steps](/img/diagram/gambaran-umum-en.svg)
 
-- **For brands**: protect products from counterfeiting, monitor scan activity through a dashboard, and build a customer loyalty program.
-- **For buyers**: assurance that the product they bought is authentic, plus a record of product ownership.
+## What you get
 
-## Flagshiiip components
+- **Quick authenticity check**: just scan and the result appears right away.
+- **Digital certificate of authenticity**: proof that your product is genuine.
+- **A record of products you own**: products you have scanned can be kept in the app.
+- **Loyalty rewards**: for certain products, you may receive a reward from the brand after verifying the product, if available.
 
-1. **Flagshiiip sticker**: a sticker with a unique QR code, placed on the product packaging.
-2. **FTN Apps**: the app for scanning QR codes and viewing a product's certificate of authenticity.
-3. **Brand dashboard**: monitoring of scans, locations, and activity.
-4. **Loyalty token**: a digital asset that underpins a blockchain-based loyalty program.
+## Who uses Flagshiiip?
 
-:::caution[Needs team verification]
-The details of the token buyers receive (token type, conditions, and amount) have not been confirmed. See [Claim Tokens](../panduan-pengguna/klaim-token.md) and [Loyalty Program](../token/program-loyalitas.md).
-:::
+- **Brands** put Flagshiiip stickers on their products to protect them from counterfeiting.
+- **Buyers** like you scan the sticker to make sure the product is authentic.
+
+You do not need to understand the technology behind it to use Flagshiiip. Everything happens automatically.
 
 ## Where to start
 
-- To understand the flow: read [Product Flow](../cara-kerja/alur-produk.md).
-- To try it as a buyer: read [Install the App](../panduan-pengguna/install-aplikasi.md).
-- For brands that want to protect their products: read [Service Plans](../layanan/paket-layanan.md).
-- Have questions: see the [FAQ](../faq.md).
+Read [Quick Start](../mulai-cepat.md), or go straight to [Install the App](../panduan-pengguna/install-aplikasi.md).

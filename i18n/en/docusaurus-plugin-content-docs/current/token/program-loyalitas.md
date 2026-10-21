@@ -1,22 +1,26 @@
 ---
 sidebar_position: 3
 title: "Loyalty Program"
-description: "The token-based loyalty program in the Flagshiiip blockchain ecosystem."
+description: "An explanation of the Flagshiiip loyalty rewards program for buyers and brands."
 ---
 
 # Loyalty Program
 
-Flagshiiip provides a token loyalty system that lets brands reward their customers with brand-backed tokens.
+## Like a membership card
 
-## Benefits
+Many brands have membership cards that give points or rewards to loyal customers. The Flagshiiip loyalty program has the same goal, but the reward is a digital [token](./token-ftn.md).
 
-- **For brands**: build customer loyalty through a token-based program in a blockchain ecosystem.
-- **For customers**: receive tokens as a reward, with transparent loyalty value.
+## For you as a buyer
 
-## Availability
+- After verifying a product, you may receive a reward from the brand.
+- The reward is kept in your wallet.
 
-The token or loyalty system is listed as part of the **Custom** plan, together with a custom smart contract. See [Service Plans](../layanan/paket-layanan.md).
+How to claim it is at [Claim a Reward](../panduan-pengguna/klaim-token.md).
+
+## For brands
+
+Brands can build customer loyalty by giving token-based rewards to their buyers. The program is managed by each brand.
 
 :::caution[Needs team verification]
-It has not been confirmed whether products from Starter plan brands also produce tokens, and whether the token buyers receive is FTN or each brand's own token.
+It has not been confirmed whether all products give a reward, or only products from brands that join this program. The type, amount, and conditions of rewards have not been confirmed either.
 :::
